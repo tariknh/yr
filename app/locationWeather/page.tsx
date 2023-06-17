@@ -28,7 +28,6 @@ export default function WeatherPage(props: any) {
             console.log(error)
         }
       }
-
     console.log(props)
   return (
     <section className="p-6 flex grid-cols-6 grid-rows-6 flex-col items-center gap-6 pt-6 md:p-10 xl:grid">
