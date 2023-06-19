@@ -7,9 +7,7 @@ import Image from "next/image"
 import { useState } from "react"
 
 
-export default function WeatherPage(props: any) {
-
-    let oldHourly = props.cityChoice.list
+export default function WeatherPage(props?: any) {
     let hourly = props.cityChoice
     const [city, setCity] = useState(props.cityChoice)
 
