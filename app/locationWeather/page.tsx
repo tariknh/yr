@@ -1,6 +1,5 @@
 "use client"
 import Link from "next/link"
-
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
